@@ -41,7 +41,7 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex">
       <div class="social-links mr-auto">
-      	<span><b>Follow us:</b></span>
+        <span><b>Follow us:</b></span>
         <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
         <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
         <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
@@ -49,7 +49,7 @@
         <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
       </div>
       <div class="contact-info">
-      	<span style="color: yellow;"><b>Join us | WhatsApp:</b></span> +91 8291879070
+        <span style="color: yellow;"><b>Join us | WhatsApp:</b></span> +91 8291879070
         <b style="color: yellow;"> | Email us:</b> <a href="mailto:contact@example.com">director@smebusinessforum.in</a>
         <a href="#contact"><b style="color: yellow;"> | Contact us</b></a>
       </div>
@@ -82,7 +82,7 @@
 
   </header><!-- End Header -->
  
- 	 <div id="footer" style="padding-top:60px !important;">
+   <div id="footer" style="padding-top:60px !important;">
    <div class="footer-newsletter" >
    
           <div class="col-lg-7" style="float: right; padding-right: 120px;">
@@ -97,15 +97,36 @@
  
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Welcome to <span>BizLand</spa>
-      </h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
-      </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.smebusinessforum.com/images/slider/SBF-1.jpg" alt="Los Angeles" style="width:100%; height: 75vh;">
     </div>
+    <div class="carousel-item">
+      <img src="https://www.smebusinessforum.com/images/slider/SBF-2.jpg" alt="Chicago" style="width:100%; height: 75vh;">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.smebusinessforum.com/images/slider/SBF-3.jpg" alt="New York" style="width:100%; height: 75vh;">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
   </section><!-- End Hero -->
 
   <main id="main">
@@ -568,8 +589,8 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="zoom-in">
+    <!-- <section id="testimonials" class="testimonials">
+      <div id="demo" class="container" data-aos="zoom-in">
 
         <div class="owl-carousel testimonials-carousel">
 
@@ -630,8 +651,95 @@
 
         </div>
 
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo1" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> --><!-- End Testimonials Section -->
+
+    <section id="testimonials" class="testimonials">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+    </div>
+    <div class="carousel-item">
+      <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+    </div>
+    <div class="carousel-item">
+      <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+    </div>
+    <div class="carousel-item">
+      <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+    </div>
+    <div class="carousel-item">
+      <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+    </div>
+  </div>
+  
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -937,7 +1045,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
@@ -948,11 +1056,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Technology Scouting</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Training Programs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Promotional Services </a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Market & Export Information Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://demosme.herokuapp.com/inner-page.html" target="_BLANK">Technology Scouting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://demosme.herokuapp.com/inner-page.html" target="_BLANK">Training Programs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://demosme.herokuapp.com/inner-page.html" target="_BLANK">Promotional Services </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://demosme.herokuapp.com/inner-page.html" target="_BLANK">Market & Export Information Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://demosme.herokuapp.com/inner-page.html" target="_BLANK">Graphic Design</a></li>
             </ul>
           </div>
 
