@@ -87,7 +87,7 @@
    
           <div class="col-lg-7" style="float: right; padding-right: 120px;">
                 <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Search" placeholder="Product title, brand etc.">
+              <input type="email" name="email" placeholder="Product title, brand etc."><input type="submit" value="Search">
             </form>
           </div>
       
